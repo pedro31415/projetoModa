@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+:root {
+    --color-header: #162028;
+    --color-menu:  #425564;
+    --color-texto: #555;
+    --color-box: #003d52;
+    --color-footer:  #0b171f;
+    --color-text-footer:  #6f8597;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+
+
+h1, h2 {
+    font-family: "Italiano", sans-serif;
+}
+
+#principal {
+    width: 64em;
+    margin: 1.25em auto;
+}
+
+.hero {
+    display: flex;
+    background-color: var(--color-header);
+    justify-content: space-between;
+}
+
+
+.main-title {
+    color: white;
+    margin: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline-block;
+    padding: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color:  var(--color-menu);
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+}
+
+
+.primary {
+    text-align: center;
+}
+
+
+.title-section {
+    font-size: 2em;
+    color:  #252525;
+}
+
+.primary p {
+    font-size: 1em;
+    line-height: 2;
+    color: var(--color-texto);
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-text {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+.about {
+    background-image: url(/img/bg_detalhe.png);
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 6.5em;
+    text-align: center;
+    color: white;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.about p {
+    line-height: 1.5;
+ 
+}
+
+
+footer {
+    background-color: var(--color-footer);
+    padding: 1em;
+    text-align: center;
+    color: var(--color-text-footer);
+    letter-spacing: 2;
+    font-size: .75em;
+}
